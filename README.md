@@ -36,8 +36,8 @@ Deliver a reproducible lab and documentation across these areas:
 ---
 
 ## Technology Stack
-- Virtualization/Containers: VirtualBox, Docker, Docker Compose
-- Firewalls/Routers (lab): pfSense, OPNsense, VyOS (VM images)
+- Virtualization/Containers: VirtualBox/VMware workstation, Docker, Containerlabs
+- Firewalls/Routers (lab): pfSense, OPNsense, VyOS/EOS/SR Linux (VM/Container images)
 - IPAM / Documentation: NetBox (Docker)
 - Monitoring: Zabbix or LibreNMS, Grafana
 - Automation: Ansible, Netmiko, NAPALM
@@ -104,7 +104,7 @@ docker-compose logs -f netbox
 ```bash
 docker-compose down
 ```
-5. If you plan to run a pfSense VM, use VirtualBox and allocate no more than 2GB RAM and 1 CPU for the VM.
+5. If you plan to run a pfSense VM, allocate a minimum of 2GB RAM and 1 CPU for better performance.
 
 ---
 
