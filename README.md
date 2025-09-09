@@ -1,6 +1,6 @@
 # Netcorp — Network Infrastructure Portfolio
 
-**Netcorp** is a fictional mid-size tech company (two branches, hybrid infrastructure). This repository is a portfolio project that demonstrates end-to-end network design, security, monitoring, automation, disaster recovery, and SLA management using free and open-source tools.
+**Netcorp** is a fictional small startup tech company (two branches, hybrid infrastructure). This repository is a portfolio project that demonstrates end-to-end network design, security, monitoring, automation, disaster recovery, and SLA management using free and open-source tools.
 
 ---
 
