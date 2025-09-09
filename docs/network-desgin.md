@@ -15,6 +15,8 @@
 - Cloud: Public cloud VPC with VPN back to HQ.
 - Monitoring and Automation servers in HQ.
 
+![network-network-diagram](https://github.com/bbolislis/netcorp-network/blob/main/docs/netcorp-network-diagram.png)
+
 ---
 
 ## IP Addressing Plan
@@ -27,6 +29,8 @@
 | Branch | 10 | 10.20.10.0/24 | User devices |
 | Branch | 99 | 10.20.99.0/24 | Management |
 | Cloud | - | 10.30.0.0/16 | VPC |
+
+![network-topology](https://github.com/bbolislis/netcorp-network/blob/main/docs/netcorp_topology.png)
 
 ---
 
